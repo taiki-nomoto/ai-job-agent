@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-black)](https://openai.com/)
 [![Google Sheets](https://img.shields.io/badge/Google%20Sheets-API-green)](https://developers.google.com/sheets/api)
-[![Playwright](https://img.shields.io/badge/Playwright-Browser%20Automation-brightgreen)](https://playwright.dev/)
+[![Microsoft Playwright](https://img.shields.io/badge/Playwright-Browser%20Automation-brightgreen)](https://playwright.dev/)
 
 生成AI関連の仕事を自動で探し、初心者向けかどうかを判定し、条件の良い案件だけをGoogle Sheetsへ保存するAIエージェントです。
 
