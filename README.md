@@ -1,7 +1,23 @@
 # AI Job Agent
 
-生成AI関連の案件を自動で検索・評価し、条件の良い案件だけをGoogle Sheetsへ保存するAIエージェントです。
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-API-black)](https://openai.com/)
+[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-API-green)](https://developers.google.com/sheets/api)
+[![Playwright](https://img.shields.io/badge/Playwright-Browser%20Automation-brightgreen)](https://playwright.dev/)
 
+生成AI関連の仕事を自動で探し、初心者向けかどうかを判定し、条件の良い案件だけをGoogle Sheetsへ保存するAIエージェントです。
+
+**求人検索 → 重複除外 → 期限チェック → 初心者向け判定 → OpenAI API評価 → ランク付け → Google Sheets保存** までを自動化します。
+
+### 特徴
+
+- CrowdWorks / Lancersから生成AI関連案件を収集
+- Pythonで一次審査し、API利用量を節約
+- OpenAI APIで初心者向け度・おすすめ度を評価
+- S / A / B / Cで応募優先度を自動判定
+- Bランク以上のみGoogle Sheetsへ保存
+- 重複案件・期限切れ・経験者向け案件を自動除外
+- 通信エラー時は自動リトライ
 ## 主な機能
 
 - Lancers Tech Agentから案件を検索
