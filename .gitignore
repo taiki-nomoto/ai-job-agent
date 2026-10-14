@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Google service account keys
+*.json
+
+# macOS
+.DS_Store
